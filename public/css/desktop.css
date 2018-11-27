@@ -1,0 +1,537 @@
+@media (min-width: 1280px) {
+	/* desktop view */
+
+	/******************************************
+/* BASE STYLES
+/*******************************************/
+
+  body {
+    max-width: 1280px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+
+  /* Header */
+
+  header {
+    padding-bottom: 150px;
+  }
+
+  .title {
+    font-size: 24px;
+    padding-top: 25px;
+    padding-left: 30px;
+  }
+
+  .logo {
+    font-size: 60px;
+    margin-left: 100px;
+  }
+
+  #header-photo {
+  	max-width: 100%;
+  }
+
+  .centered-title {
+    padding-left: 70px;
+  }
+
+  .contact-title {
+    padding-left: 125px;
+  }
+
+  #welcome-to {
+    padding-left:55px;
+  }
+
+  /* Navigation Menu */
+
+  nav {
+    padding: 10px;
+    font-size: 22px;
+  }
+
+  nav ul li {
+    margin: 0 45px 0 45px;
+    padding: 10px;
+  }
+
+  /* Homepage */
+
+  .topbox {
+    min-height: 500px;
+    padding: 10px;
+  }
+
+  .welcome {
+    width: 316px;
+    padding: 26px;
+    margin: 20px;
+    font-size: 24px;
+  }
+
+  .navmargin {
+    margin-bottom: 25px;
+  }
+
+  .indented-paragraph {
+    margin: 0 35px;
+    font-size: 20px;
+  }
+
+  #ads {
+    margin: 25px 75px 25px 150px;
+  }
+
+  #newsroom {
+    margin-left: 50px;
+  }
+
+  #navigation-section {
+    margin: 25px 0px 20px 45px;
+    line-height: 40px;
+    border-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .navigation-instructions {
+    padding: 5px 30px 30px 10px;
+    width: 50%;
+  }
+
+  .navigation-graphic {
+    margin: 15px 15px 15px 0px;
+  }
+
+  #history-instructions {
+    width: 1160px;
+  }
+
+  #updates {
+    padding-top: 25px;
+    margin: 25px auto;
+  }
+
+  .paragraph {
+    margin: 25px;
+    padding: 0 50px;
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 38px;
+    padding-bottom: 15px;
+    padding-top: 25px;
+  }
+
+  h3 {
+    font-size:26px;
+  }
+
+  h3 a {
+    font-size: 26px;
+  }
+
+  /*Memorabilia*/
+
+  .category {
+    width: 45%;
+    margin: 15px 40px 15px 0;
+  }
+
+  /*History*/
+
+  #history-title {
+    padding-left: 235px;
+    font-size: 26px;
+  }
+
+  .subtitle {
+    padding-left: 90px;
+  }
+
+  .history-category {
+    width: 50%;
+    display: inline-block;
+    float: left;
+    padding: 15px;
+  }
+
+  .body-text {
+    padding: 25px 70px;
+  }
+
+  #news-timeline {
+    margin-bottom: 35px;
+  }
+
+  #slide-show-title {
+    font-size: 36px;
+    padding: 45px 0 15px 225px;
+  }
+
+  /*About*/
+
+  #bioblock {
+    margin: 40px auto;
+    padding-bottom: 600px;
+  }
+
+  .bio {
+    width: 50%;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+  }
+
+  .biopic {
+    padding-top: 85px;
+  }
+
+  /* Contact */
+
+  #contact-photo {
+  	max-width: 100%;
+  }
+
+  form {
+    margin: 25px 25px 25px 125px;
+  }
+
+  #note {
+    width: 45%;
+    padding: 25px;
+    font-size: 26px;
+    line-height: 40px;
+    margin-left: 100px;
+  }
+
+  #notephoto {
+    margin: 25px;
+    margin-bottom: 50px;
+  }
+
+  /* Newsfeed */
+
+  #mission {
+    font-size: 30px;
+    line-height: 1.7;
+  }
+
+  #guide {
+    font-size: 30px;
+  }
+
+  #nfh {
+    margin-bottom: 25px;
+  }
+
+  #foodMap {
+      width: 20.6%;
+  }
+
+  .intro {
+    margin: 25px 25px 25px 70px;
+    width: 85%;
+  }
+
+  .latest-review {
+    padding: 25px 0;
+    margin: 30px 150px;
+  }
+
+  #review-title {
+    width: 850px;
+    padding: 30px;
+    margin-left: 50px;
+  }
+
+  .food-intro {
+    margin-top: 15px;
+  }
+
+  .review {
+    padding: 40px 0px 0px 55px;
+    width: 1000px;
+  }
+
+  .food-review {
+    width: 45%;
+    padding-right: 25px;
+  }
+
+  .food-photo {
+    width: 45%;
+    padding-left: 45px;
+    padding-top: 55px;
+  }
+
+  h6 {
+    font-size: 22px;
+  }
+
+  .address {
+    padding: 15px 0;
+  }
+
+  .right-page {
+    margin-left: 35px;
+  }
+
+  #mid-atlantic {
+    width: 23%;
+    min-height: 150px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #midwest {
+    width: 23%;
+    min-height: 150px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #northeast {
+    width: 23%;
+    min-height: 150px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #pacific-northwest {
+    width: 23%;
+    min-height: 150px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #southeast {
+    width: 23%;
+    min-height: 150px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #southwest {
+    width: 23%;
+    min-height: 150px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #west {
+    width: 23%;
+    min-height: 150px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #international {
+    width: 23%;
+    min-height: 150px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  .region h5 {
+    font-size: 22px;
+  }
+
+  /*Food Map*/
+
+  #large-food-map {
+    padding-top: 25px;
+  }
+
+  .close {
+      top: 15px;
+      right: 35px;
+      font-size: 40px;
+  }
+
+   /* That's The Way It Was */
+
+  .newspaper {
+      padding-left: 50px;
+  }
+
+  .newspaper img {
+      width: 95%;
+  }
+
+  /* For More On The Story */
+
+  .text-left {
+    width: 55%;
+    line-height: 40px;
+    margin-left: 20px;
+  }
+
+  .text {
+    line-height: 40px;
+    margin: 15px 0 15px 20px;
+
+  }
+
+  #pinata {
+    width: 35%;
+    margin: 5px 0 25px 35px;
+  }
+
+  #trump-toilet-paper {
+    margin: 0 55px 0 85px;
+
+  }
+
+  /* Conflict Gallery */
+
+  .navigation-bar {
+    margin-top: 25px;
+    padding-top: 5px;
+    font-size: 14px;
+  }
+
+  .next-item {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  #gulf-wars {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #balkan-wars {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #afghanistan {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #arab-israeli-conflict {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #chechnya {
+    width: 32%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  #other-conflicts {
+    width: 30%;
+    min-height: 200px;
+    margin: 25px auto;
+    padding-top: 50px;
+    margin-right: 15px;
+  }
+
+  .conflict-category h5 {
+    font-size: 22px;
+    margin-top: 225px;
+  }
+
+  /* Gallery Category Pages */
+
+  .gallery-layout {
+    margin-bottom: 25px;
+  }
+
+  .gallery-section-intro {
+    margin: 25px 0;
+  }
+
+  /* Gallery Item Pages */
+
+  .item-pages {
+    margin: 25px auto;
+  }
+
+  .item-image {
+    margin-right: 20px;
+  }
+
+  /* Politics Gallery */
+
+  #wbush {
+    background-image: url("../images/Galleries/George-W-Bush-desktop.jpeg");
+  }
+
+  #trump {
+    background-image: url("../images/Galleries/Trump-interview-desktop.jpeg");
+  }
+
+  #foreign-politics {
+    background-image: url("../images/Galleries/yeltsin-presidential-pinback-desktop.jpeg");
+  }
+
+  #pence {
+    background-image: url("../images/Galleries/pence-trump-desktop.jpeg");
+  }
+
+  /* Footer */
+
+  footer {
+    padding: 30px;
+  }
+
+  .footerbox {
+    width: 33%;
+  }
+
+  footer ul li {
+    margin: 25px auto;
+  }
+
+  h4 {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+
+  footer p {
+    font-size: 24px;
+  }
+
+}
