@@ -38,13 +38,7 @@ a {
   text-decoration: none;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .container {
-  max-width: 100%;
   height: auto;
 }
 
@@ -161,9 +155,16 @@ h3 a {
 }
 
 .photo-row {
-  width: 100%
   text-align: justify;
   display: inline-block;
+}
+
+.photo-row img {
+  margin-right: 1%;
+  margin-bottom: 1%;
+  width: 32.33%;
+  height: auto;
+  float: left;
 }
 
 /*History*/
@@ -282,45 +283,91 @@ h3 a {
     float: right;
 }
 
+.intro {
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+
 .latest-review {
   font-family: 'Kalam', cursive;
   background-repeat: no-repeat;
   border-top: solid 1px #ffffff;
-  border-bottom: solid 1px #ffffff;
+  border-bottom: solid 1px #ffffff;  
+  padding: 25px 0;
+  margin: 30px auto;
 }
 
 #review-title {
   background-image: url("../images/Graphics/Map-banner.jpeg");
   background-size: cover;
+  width: 850px;
+  padding: 30px;
+  margin-left: 18%;
 }
 
-.review {
+.food-intro {
+  margin-top: 15px;
+}
+
+.book-frame {
+  background-image: url("../images/Food/open-journal-charleston.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 17px;
+  padding-left: 80px;
+  width: 1000px;
+  height: 650px;
+  margin-left: 11%;
+}
+
+#flipbook {
+  width: 900px;
+  height: 615px;
+  background-color: transparent;
+}
+
+.left-page {
+  width: 950px;
+  height: 615px;
+}
+
+.right-page {
+  /* width: 850px; */
+  height: 620px;
+  position: absolute;
+  right: 5px;
+}
+
+/* .review {
   background-image: url("../images/Graphics/Vintage-Notebook.jpeg");
   background-size: cover;
   color: #000000;
-}
-
+  height: 550px;
+} */
+/* 
 .food-review {
   float: left;
-}
+} */
 
-.food-photo {
+/* .food-photo {
   float: left;
-}
+} */
 
-.food-photo img {
+/* .food-photo img {
   border: solid 1px #000000
-}
+} */
 
-h6 {
+/* h6 {
   font-weight: 800;
   text-align: center;
-}
+} */
 
-.address {
+/* .address {
   font-weight: 800;
   text-align: center;
-}
+} */
 
 #mid-atlantic {
   display: inline-block;
@@ -473,7 +520,7 @@ h5 a {
 
 #other-conflicts {
   display: inline-block;
-  background-image: url("../images/Galleries/haiti-aircraft-carrier.jpeg");
+  background-image: url("../images/Galleries/little-dave-beach.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -481,6 +528,8 @@ h5 a {
 .conflict-category {
   background-color: rgba(255, 255, 255, 0.8);
   color: #000000;
+  /* width: 30%;
+  height: auto; */
 }
 
 .conflict-category h5 {
@@ -628,12 +677,25 @@ h5 a {
 
 /* Politics Gallery */
 
-#pre-1980 {
+#pre-1976 {
   display: inline-block;
   width: 30%;
   background-image: url("../images/Galleries/Nixon.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-left: 25px;
+}
+
+#carter {
+  display: inline-block;
+  width: 30%;
+  background-image: url("../images/Galleries/carter.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 15px;
+  margin-right: 25px;
 }
 
 #reagan {
@@ -642,6 +704,7 @@ h5 a {
   background-image: url("../images/Galleries/santa-barbara.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 25px;
 }
 
 #hwbush {
@@ -650,6 +713,9 @@ h5 a {
   background-image: url("../images/Galleries/hw-bush-speech.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-left: 25px;
 }
 
 #clinton {
@@ -658,6 +724,8 @@ h5 a {
   background-image: url("../images/Galleries/HRC.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 15px;
+  margin-right: 25px;
 }
 
 #wbush {
@@ -666,6 +734,7 @@ h5 a {
   background-image: url("../images/Galleries/George-W-Bush.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 25px;
 }
 
 #obama {
@@ -674,6 +743,9 @@ h5 a {
   background-image: url("../images/Galleries/Obama.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  margin-left: 25px;
 }
 
 #trump {
@@ -682,6 +754,8 @@ h5 a {
   background-image: url("../images/Galleries/Trump-interview.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 15px;
+  margin-right: 25px;
 }
 
 #foreign-politics {
@@ -690,16 +764,9 @@ h5 a {
   background-image: url("../images/Galleries/yeltsin-presidential-pinback.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 25px;
 }
 
-#pence {
-  display: inline-block;
-  width: 30%;
-  background-image: url("../images/Galleries/pence-trump.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 50px;
-}
 
 /* Footer */
 
@@ -734,7 +801,7 @@ footer p {
 
 
 
-@media(min-width: 320px) {
+@media(max-width: 320px) {
   /* small portrait screens */
 
 /******************************************
@@ -742,7 +809,7 @@ footer p {
 /*******************************************/
 
   body {
-    max-width: 320px;
+    /* max-width: 320px; */
     margin: 0 auto;
     font-size: 18px;
     line-height: 1.2;
@@ -753,10 +820,10 @@ footer p {
     height: auto;
   }
 
-  .container {
+  /* .container {
     max-width: 100%;
     height: auto;
-  }
+  } */
 
   /******************************************
   /* LAYOUT
@@ -778,9 +845,9 @@ footer p {
     font-size: 60px;
   }
 
-  #header-photo {
+  /* #header-photo {
   
-  }
+  } */
 
   .centered-title {
     padding-left: 70px;
@@ -976,12 +1043,7 @@ footer p {
       width: 27.3%;
   }
 
-  .intro {
-    margin: 25px 25px 25px 70px;
-    width: 85%;
-  }
-
-  .latest-review {
+  /* .latest-review {
     padding: 25px 0;
     margin: 30px auto;
   }
@@ -994,9 +1056,9 @@ footer p {
 
   .food-intro {
     margin-top: 15px;
-  }
+  } */
 
-  .review {
+  /* .review {
     padding: 40px 0px 0px 55px;
     height: 550px;
   }
@@ -1004,9 +1066,9 @@ footer p {
   .food-review {
     width: 45%;
     padding-right: 25px;
-  }
+  } */
 
-  .food-photo {
+  /* .food-photo {
     width: 45%;
     padding-left: 45px;
     padding-top: 55px;
@@ -1018,11 +1080,11 @@ footer p {
 
   .address {
     padding: 15px 0;
-  }
+  } */
 
-  .right-page {
+  /* .right-page {
     margin-left: 35px;
-  }
+  } */
 
   #mid-atlantic {
     width: 23%;
@@ -1312,7 +1374,7 @@ footer p {
 
 }
 
-@media(min-width: 480px) {
+@media(max-width: 480px) {
   /* large portrait screens */
 
   /******************************************
@@ -1320,7 +1382,7 @@ footer p {
 /*******************************************/
 
   body {
-    max-width: 480px;
+    /* max-width: 480px; */
     margin: 0 auto;
     font-size: 18px;
     line-height: 1.2;
@@ -1356,9 +1418,9 @@ footer p {
     font-size: 60px;
   }
 
-  #header-photo {
+  /* #header-photo {
   
-  }
+  } */
 
   .centered-title {
     padding-left: 70px;
@@ -1553,12 +1615,7 @@ footer p {
       width: 27.3%;
   }
 
-  .intro {
-    margin: 25px 25px 25px 70px;
-    width: 85%;
-  }
-
-  .latest-review {
+  /* .latest-review {
     padding: 25px 0;
     margin: 30px auto;
   }
@@ -1576,9 +1633,9 @@ footer p {
   .review {
     padding: 40px 0px 0px 55px;
     height: 550px;
-  }
+  } */
 
-  .food-review {
+  /* .food-review {
     width: 45%;
     padding-right: 25px;
   }
@@ -1599,7 +1656,7 @@ footer p {
 
   .right-page {
     margin-left: 35px;
-  }
+  } */
 
   #mid-atlantic {
     width: 23%;
@@ -1823,14 +1880,14 @@ footer p {
 
 }
 
-@media(min-width: 640px) {
+@media(max-width: 640px) {
   /* landscape view */  
   /******************************************
 /* BASE STYLES
 /*******************************************/
 
   body {
-    max-width: 640px;
+    /* max-width: 640px; */
     margin: 0 auto;
     font-size: 18px;
     line-height: 1.2;
@@ -1841,10 +1898,10 @@ footer p {
     height: auto;
   }
 
-  .container {
+  /* .container {
     max-width: 100%;
     height: auto;
-  }
+  } */
 
   /******************************************
   /* LAYOUT
@@ -1865,10 +1922,10 @@ footer p {
   .logo {
     font-size: 60px;
   }
-
+/* 
   #header-photo {
     
-  }
+  } */
 
   .centered-title {
     padding-left: 70px;
@@ -2063,12 +2120,7 @@ footer p {
       width: 27.3%;
   }
 
-  .intro {
-    margin: 25px 25px 25px 70px;
-    width: 85%;
-  }
-
-  .latest-review {
+  /* .latest-review {
     padding: 25px 0;
     margin: 30px auto;
   }
@@ -2081,9 +2133,9 @@ footer p {
 
   .food-intro {
     margin-top: 15px;
-  }
+  } */
 
-  .review {
+  /* .review {
     padding: 40px 0px 0px 55px;
     height: 550px;
   }
@@ -2091,9 +2143,9 @@ footer p {
   .food-review {
     width: 45%;
     padding-right: 25px;
-  }
+  } */
 
-  .food-photo {
+  /* .food-photo {
     width: 45%;
     padding-left: 45px;
     padding-top: 55px;
@@ -2109,7 +2161,7 @@ footer p {
 
   .right-page {
     margin-left: 35px;
-  }
+  } */
 
   #mid-atlantic {
     width: 23%;

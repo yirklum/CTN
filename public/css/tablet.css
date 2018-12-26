@@ -1,11 +1,11 @@
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 	/* tablet portrait */
 	/******************************************
 /* BASE STYLES
 /*******************************************/
 
   body {
-    max-width: 768px;
+    /* max-width: 768px; */
     margin: 0 auto;
     font-size: 18px;
     line-height: 1.2;
@@ -16,10 +16,10 @@
     height: auto;
   }
 
-  .container {
+  /* .container {
     max-width: 100%;
     height: auto;
-  }
+  } */
 
   /******************************************
   /* LAYOUT
@@ -258,12 +258,7 @@
       width: 28.5%;
   }
 
-  .intro {
-    margin: 25px 25px 25px 70px;
-    width: 85%;
-  }
-
-  .latest-review {
+/*  .latest-review {
     padding: 25px 0;
     margin: 30px auto;
   }
@@ -297,9 +292,9 @@
     width: 45%;
     padding-left: 45px;
     padding-top: 55px;
-  }
+  }*/
 
-  h6 {
+ /* h6 {
     font-size: 22px;
   }
 
@@ -309,7 +304,7 @@
 
   .right-page {
     margin-left: 35px;
-  }
+  }*/
 
   #mid-atlantic {
     width: 23%;
@@ -539,7 +534,7 @@
 
 }
 
-@media(min-width: 1024px) {
+@media(max-width: 1024px) {
 	/* tablet landscape */
 
 	/******************************************
@@ -547,7 +542,7 @@
 /*******************************************/
 
   body {
-    max-width: 1024px;
+    /* max-width: 1024px; */
     margin: 0 auto;
     font-size: 18px;
     line-height: 1.2;
@@ -557,11 +552,11 @@
     max-width: 100%;
     height: auto;
   }
-
+/* 
   .container {
     max-width: 100%;
     height: auto;
-  }
+  } */
 
   /******************************************
   /* LAYOUT
@@ -590,10 +585,10 @@
   .centered-title {
     padding-left: 70px;
   }
-
+/* 
   .headergraphic-left {
 
-  }
+  } */
 
   .contact-title {
     padding-left: 125px;
@@ -792,12 +787,7 @@
       width: 25.7%;
   }
 
-  .intro {
-    margin: 25px 25px 25px 70px;
-    width: 85%;
-  }
-
-  .latest-review {
+  /*.latest-review {
     padding: 25px 0;
     margin: 30px auto;
   }
@@ -825,9 +815,9 @@
 
   .caption {
     font-size: 18px;
-  }
+  }*/
 
-  .food-photo {
+  /*.food-photo {
     width: 45%;
     padding-left: 45px;
     padding-top: 55px;
@@ -843,7 +833,7 @@
 
   .right-page {
     margin-left: 35px;
-  }
+  }*/
 
   #mid-atlantic {
     width: 23%;
