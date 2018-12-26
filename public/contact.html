@@ -45,6 +45,8 @@
 		<section>
 			<div class="clear">
 				<div id="note">
+					<!-- <h2>Contact Form</h2> -->
+					
 					<p>Please share your thoughts or questions with us in the form below. We would love to hear from you!</p>
 				</div>
 				<div id="notephoto">
@@ -53,41 +55,52 @@
 			</div>
 		</section>
 		
-		<form class="clear" action="#">
-			<select>
-				<option value="Ms." selected>Ms.</option>
-				<option value="Mr.">Mr.</option>
-			</select>
-			
-			<label for "firstName">First Name:</label>
-			<input type="text" name="firstName" id="firstName" size="20" required>
-			
-			<label for"lastName">Last Name:</label>
-			<input type="text" name="lastName" id="lastName" size="30" required>
-			<br><br>
+		<div class="clear">
 
-			<label for"location">City, State, Country:</label>
-			<input type="text" name="lastName" id="location" size="65" required>
-			<br><br>
+			<form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSchMenxPX8eLOsFooliAsKMsgKOfZa1shKSZQfOp5_zvyfLPg/formResponse">
 			
-			<label for "email">E-mail Address:</label>
-			<input type="text" name="email" id="email" size="40" required>
-			<br><br>
+			<!-- <p>Title</p> -->
 			
-			<label for "message">Message:</label>
-			<br>
-			
-			<textarea rows="15" cols="75" id="message"></textarea>
-			<br><br>
-			
-			<p>Would you like to sign up for e-mail updates?</p>
-			<input type="radio" name="updates" value="yes">Yes<br>
-			<input type="radio" name="updates" value="no">No
-			<br><br>
-			
-			<input type="submit" value="Submit">
+				<select name="entry.1106280509">
+					<option value="Ms." selected>Ms.</option>
+					<option value="Mr.">Mr.</option>
+					<option value="Dr.">Dr.</option>
+				</select>
+				
+				<label for="firstName">First Name:</label>
+				<input name="entry.157537220" type="text" id="firstName"/>
+				
+				<label for="lastName">Last Name:</label>
+				<input name="entry.1901426145" type="text" id="lastName"/>
+				<br><br>
 
-		</form>
+				<label for="email">E-mail Address:</label>
+				<input name="entry.394014405" type="text" id="email"/>
+				<br><br>
+
+				<label for="location">City, State, Country:</label>
+				<input name="entry.1515605688" type="text"  id="location"/>
+				<br><br>
+				
+				<label for="message">Message:</label>
+				<br>
+				
+				<textarea name="entry.1118235109" id="message"></textarea>
+				<br><br>
+			
+				<p>Would you like to sign up for e-mail updates?</p>
+				
+				<input type="radio" name="entry.1905104069" id="yes" value="yes">
+				<label for="yes">Yes</label>
+				
+				<input type="radio" name="entry.1905104069" id="no" value="no">
+				<label for="no">No</label>
+				<br><br>
+				
+				<input class="button" type="submit" value="Submit">
+
+			</form>
+		</div>	
 
 		<footer class="clear">
 

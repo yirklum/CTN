@@ -1,6 +1,6 @@
-var path = require("path");
+// var path = require("path");
 
-module.exports = function(app) {
+// module.exports = function(app) {
 
   // If sign in is successful . . .
 //   app.get("/", function(req, res) {
@@ -36,4 +36,4 @@ module.exports = function(app) {
 
 
 
-};
+// };

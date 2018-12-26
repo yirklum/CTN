@@ -1,24 +1,24 @@
-var db = require("../models");
+// var db = require("../models");
 
 
-module.exports = function (app) {
+// module.exports = function (app) {
 
   // Add a contact entry
-  app.post("/api/contact", function (req, res) {
-    console.log("Contact Data:");
-    console.log(req.body);
-    db.Contacts.create({
+  // app.post("/api/contact", function (req, res) {
+  //   console.log("Contact Data:");
+  //   console.log(req.body);
+  //   db.Contacts.create({
 
-      firstName: req.body.firstName,
-      lastName: req.body.lastName,
-      email: req.body.email,
-      location: req.body.location,
-      comment: req.body.comment,
-    })
+  //     firstName: req.body.firstName,
+  //     lastName: req.body.lastName,
+  //     email: req.body.email,
+  //     location: req.body.location,
+  //     comment: req.body.comment,
+  //   })
     //   .then(function () {
     //     res.json("/members");
     //   });
-  });
+  // });
 
   // Add new user
 //   app.post("/api/newuser", function (req, res) {
@@ -61,4 +61,4 @@ module.exports = function (app) {
 //     });
 //   });
 
-};
+// };

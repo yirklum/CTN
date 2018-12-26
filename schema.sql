@@ -1,1 +1,1 @@
-CREATE DATABASE contacts_DB;
+-- CREATE DATABASE contacts_DB;
