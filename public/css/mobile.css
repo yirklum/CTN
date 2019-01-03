@@ -28,7 +28,7 @@
 /*******************************************/
 
 body {
-  font-family: 'Special Elite', cursive;
+  font-family: 'Special Elite';
   background-color: #000000;
   color: #ffffff;
   text-align: justify;
@@ -538,114 +538,49 @@ h5 a {
   color: #ffffff;
 }
 
-
-/* Style the Image Used to Trigger the Modal */
-/* #shatteredGlass {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#shatteredGlass:hover {opacity: 0.7;} */
-
-/* The Modal (background) */
-/* .modal {
-    display: none; 
-    position: fixed;  
-    z-index: 1; 
-    padding-top: 100px; 
-    left: 0;
-    top: 0;
-    width: 100%; 
-    height: 100%; 
-    overflow: auto; 
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.9);  */
-/* }
-
-/* Modal Content (Image) */
-/* .modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-} */
-
-/* Caption of Modal Image (Image Text) - Same Width as the Image */
-/* #shatteredGlassCaption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-} */
-
-/* Add Animation - Zoom in the Modal */
-/* .modal-content, #shatteredGlassCaption { 
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-} */
-
-/* The Close Button */
-/* .close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-} */
-
-/* .close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-} */
-
-/* 100% Image Width on Smaller Screens */
-/* @media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-    }
-} */
-
-/* .item-block {
-  border-top: 5px ridge blue;
-  border-bottom: 5px ridge blue;
-  padding: 15px;
-} */
-
 .item-pages {
   margin-bottom: 15px;
 }
 
 .item-image {
-  display: inline-block;
   float: left;
-  margin-right: 25px;
+  /* margin-right: 25px; */
   width: 45%;
+  margin-bottom: 75px;
+}
+
+.item-text-block {
+  border: solid 2px #ffffff;
+  padding: 45px;
+  display: inline-block;
+  width: 55%;
+  height: 666px;
 }
 
 .item-text {
   line-height: 30px;
-  vertical-align: center;
+  position: relative;
+}
+
+.item-block-overflow {
+  margin-bottom: 75px;
+  border: solid 2px #ffffff;
+}  
+
+.item-image-overflow {
+  float: left;
+  width: 45%;
+  margin-bottom: 25px;
+  margin-right: 45px;
+}
+
+.item-text-block-overflow {
+  padding: 45px;
+}
+
+.item-text-overflow {
+  line-height: 30px;
+  position: relative;
 }
 
 .passage {
@@ -1021,47 +956,9 @@ footer p {
       width: 27.3%;
   }
 
-  /* .latest-review {
-    padding: 25px 0;
-    margin: 30px auto;
-  }
-
-  #review-title {
-    width: 850px;
-    padding: 30px;
-    margin-left: 50px;
-  }
-
-  .food-intro {
-    margin-top: 15px;
-  } */
-
-  /* .review {
-    padding: 40px 0px 0px 55px;
-    height: 550px;
-  }
-
   .food-review {
     width: 45%;
     padding-right: 25px;
-  } */
-
-  /* .food-photo {
-    width: 45%;
-    padding-left: 45px;
-    padding-top: 55px;
-  }
-
-  h6 {
-    font-size: 22px;
-  }
-
-  .address {
-    padding: 15px 0;
-  } */
-
-  /* .right-page {
-    margin-left: 35px;
   } */
 
   #mid-atlantic {
