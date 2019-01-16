@@ -555,6 +555,7 @@ h5 a {
   display: inline-block;
   width: 55%;
   height: 666px;
+  /* float: right; */
 }
 
 .item-text {
@@ -587,6 +588,50 @@ h5 a {
   font-style: italic;
   padding-left: 30px;
 }
+
+.thumbnail-column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.thumbnail-column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.thumbnail-column img:hover {
+  opacity: 1;
+}
+
+.thumbnail-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.expanded-thumbnail container {
+  position: relative;
+  display: none;
+}
+
+#itemText {
+  /* position: absolute; */
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.thumbnail-container {
+  border: solid 2px #ffffff;
+  display: inline-block;
+  float: left;
+  width: 45%;
+  height: 666px;
+  margin-bottom: 500px;
+}
+
 
 /* Politics Gallery */
 

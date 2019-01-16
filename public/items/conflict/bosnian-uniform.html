@@ -58,7 +58,35 @@
 			<div class="item-pages">
 				<h2>Pink Wool Uniform</h2>
 
-				<img class="item-image" src="bosnian-uniform.jpeg" alt="Caption">
+				<div class="thumbnail-container">
+					<img src="bosnian-uniform.jpeg" id="first-image" alt="Caption">
+
+					<span id="first-caption">Caption</span>
+
+					<div class="expanded-thumbnail-container">
+						<img id="expandedThumbnail" style="width:100%">
+
+						<div id="itemCaption"></div>
+					</div>	
+
+					<div class="thumbnail-row">
+						<div class="thumbnail-column">
+							<img src="bosnian-uniform.jpeg" alt="Caption 1" onclick="showThumbnail(this);">	
+						</div>
+						
+						<div class="thumbnail-column">
+							<img src="bosnian-uniform-2.jpeg" alt="Caption 2" onclick="showThumbnail(this);">
+						</div>
+
+						<div class="thumbnail-column" >
+							<img src="bosnian-uniform-3.jpeg" alt="Caption 3" onclick="showThumbnail(this);">
+						</div>
+
+						<!-- <div class="thumbnail-column">
+						</div> -->
+					</div>
+				</div>
+				
 
 				<div class="item-text-block">
 					<p class="item-text">When war broke out in Bosnia, the Bosniac government lacked proper uniforms for their soldiers. 
@@ -105,5 +133,7 @@
 		<script src='https://code.jquery.com/jquery-latest.min.js'></script>
 		
 		<script src="../../js/script.js"></script>
+
+		<script src="../../js/items.js"></script>
 	</body>
 </html>

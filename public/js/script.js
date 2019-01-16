@@ -63,47 +63,47 @@ $(document).ready(function(){
 
     // Armored Car Window
     // Get the modal
-	var amodal = document.getElementById('shatteredGlassModal');
+	// var amodal = document.getElementById('shatteredGlassModal');
 
-	// Get the image and insert it inside the modal - use its "alt" text as a caption
-	var aimg = document.getElementById('shatteredGlass');
-	var amodalImg = document.getElementById("shatteredGlassImage");
-	var acaptionText = document.getElementById("shatteredGlassCaption");
-	aimg.onclick = function(){
-	    amodal.style.display = "block";
-	    amodalImg.src = this.src;
-	    acaptionText.innerHTML = this.alt;
-	}
+	// // Get the image and insert it inside the modal - use its "alt" text as a caption
+	// var aimg = document.getElementById('shatteredGlass');
+	// var amodalImg = document.getElementById("shatteredGlassImage");
+	// var acaptionText = document.getElementById("shatteredGlassCaption");
+	// aimg.onclick = function(){
+	//     amodal.style.display = "block";
+	//     amodalImg.src = this.src;
+	//     acaptionText.innerHTML = this.alt;
+	// }
 
 	// Get the <span> element that closes the modal
-	var span = document.getElementsByClassName("close")[0];
+	// var span = document.getElementsByClassName("close")[0];
 
 	// When the user clicks on <span> (x), close the modal
-	span.onclick = function() { 
-	  amodal.style.display = "none";
-	}
+	// span.onclick = function() { 
+	//   amodal.style.display = "none";
+	// }
 
 	// Sniper Signs
 	// Get the modal
-	var bmodal = document.getElementById('sniperSignModal');
+	// var bmodal = document.getElementById('sniperSignModal');
 
 	// Get the image and insert it inside the modal - use its "alt" text as a caption
-	var bimg = document.getElementById('sniperSignModal');
-	var bmodalImg = document.getElementById("sniperSignImage");
-	var bcaptionText = document.getElementById("sniperSignCaption");
-	bimg.onclick = function(){
-	    bmodal.style.display = "block";
-	    bmodalImg.src = this.src;
-	    bcaptionText.innerHTML = this.alt;
-	}
+	// var bimg = document.getElementById('sniperSignModal');
+	// var bmodalImg = document.getElementById("sniperSignImage");
+	// var bcaptionText = document.getElementById("sniperSignCaption");
+	// bimg.onclick = function(){
+	//     bmodal.style.display = "block";
+	//     bmodalImg.src = this.src;
+	//     bcaptionText.innerHTML = this.alt;
+	// }
 
 	// Get the <span> element that closes the modal
-	var span = document.getElementsByClassName("close")[0];
+	// var span = document.getElementsByClassName("close")[0];
 
 	// When the user clicks on <span> (x), close the modal
-	span.onclick = function() { 
-	  bmodal.style.display = "none";
-	}
+	// span.onclick = function() { 
+	//   bmodal.style.display = "none";
+	// }
 	
 });
 
