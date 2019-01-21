@@ -1,16 +1,39 @@
-    function showThumbnail(imgs) {
-        $("#first-image").hide();
+    function showPinkUniform(imgs) {
+        $("#pink-uniform").hide();
 
-        $("#first-caption").hide();
+        var expandPinkUniform = document.getElementById("expandedPinkUniform");
 
+        expandPinkUniform.src = imgs.src;
 
-        var expandThumbnail = document.getElementById("expandedThumbnail");
+        expandPinkUniform.parentElement.style.display = "block";
+    }
 
-        var addText = document.getElementById("itemCaption");
+    function showArnettBook(imgs) {
+        $("#arnett-book").hide();
 
-        expandThumbnail.src = imgs.src;
+        var expandArnettBook = document.getElementById("expandedArnettBook");
 
-        addText.innerHTML = imgs.alt;
+        expandArnettBook.src = imgs.src;
 
-        expandThumbnail.parentElement.style.display = "block";
+        expandArnettBook.parentElement.style.display = "block";
+    }
+
+    function showBabyMilk(imgs) {
+        $("#baby-milk").hide();
+
+        var expandBabyMilk = document.getElementById("expandedBabyMilk");
+
+        expandBabyMilk.src = imgs.src;
+
+        expandBabyMilk.parentElement.style.display = "block";
+    }
+
+    function showBosniaIds(imgs) {
+        $("#bosnia-ids").hide();
+
+        var expandBosniaIds = document.getElementById("expandedBosniaIds");
+
+        expandBosniaIds.src = imgs.src;
+
+        expandBosniaIds.parentElement.style.display = "block";
     }

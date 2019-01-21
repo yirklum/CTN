@@ -58,7 +58,24 @@
 			<div class="item-pages">
 				<h2>Signed Peter Arnett Book</h2>
 					
-				<img class="item-image" src="arnett-book.jpeg" alt="Caption">
+				<div class="thumbnail-container">
+					<img src="arnett-book.jpeg" id="arnett-book" alt="">
+
+					<div class="expanded-thumbnail-container">
+						<img id="expandedArnettBook" style="width:100%">
+					</div>
+
+					<div class="thumbnail-row">
+						<div class="thumbnail-column">
+							<img src="arnett-book.jpeg" alt="" onclick="showArnettBook(this);">
+						</div>
+
+						<div class="thumbnail-column">
+							<img src="arnett-book-2.jpeg" alt="" onclick="showArnettBook(this);">
+						</div>
+					</div>
+				</div>
+				
 
 				<div class="item-text-block">
 					<p class="item-text">
@@ -96,4 +113,6 @@
 		<script src='https://code.jquery.com/jquery-latest.min.js'></script>
 		
 		<script src="../../js/script.js"></script>
+
+		<script src="../../js/items.js"></script>
 	</body>
