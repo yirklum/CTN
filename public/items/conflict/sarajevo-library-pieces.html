@@ -58,8 +58,24 @@
 			<div class="item-pages">
 				<h2>Sarajevo Library Pieces</h2>
 
-				<img class="item-image" src="sarajevo-library-pieces.jpeg" alt="Caption">
-
+				<div class="thumbnail-container">
+					<img src="sarajevo-library-pieces.jpeg" id="sarajevo-library" alt="">
+		
+					<div class="expanded-thumbnail-container">
+						<img id="expandedSarajevoLibrary" style="width:100%">
+					</div>	
+		
+					<div class="thumbnail-row">
+						<div class="thumbnail-column">
+							<img src="sarajevo-library-pieces.jpeg" alt="" onclick="showSarajevoLibrary(this);">	
+						</div>
+								
+						<div class="thumbnail-column">
+							<img src="sarajevo-library-pieces-2.jpeg" alt="" onclick="showSarajevoLibrary(this);">
+						</div>
+					</div>
+				</div>
+		
 				<div class="item-text-block">
 					<p class="item-text"> 
                         Add text.
@@ -96,5 +112,7 @@
 		<script src='https://code.jquery.com/jquery-latest.min.js'></script>
 		
 		<script src="../../js/script.js"></script>
+
+		<script src="../../js/items.js"></script>
 	</body>
 </html>

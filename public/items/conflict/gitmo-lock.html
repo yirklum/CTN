@@ -58,7 +58,23 @@
 			<div class="item-pages">
 				<h2>Guantanamo Bay Prison Front Gate Lock and Chain</h2>
 					
-				<img class="item-image" src="gitmo-lock.jpeg" alt="Caption">
+				<div class="thumbnail-container">
+					<img src="gitmo-lock.jpeg" id="gitmo-lock" alt="">
+		
+					<div class="expanded-thumbnail-container">
+						<img id="expandedGitmoLock" style="width:100%">
+					</div>	
+		
+					<div class="thumbnail-row">
+						<div class="thumbnail-column">
+							<img src="gitmo-lock.jpeg" alt="" onclick="showGitmoLock(this);">	
+						</div>
+								
+						<div class="thumbnail-column">
+							<img src="gitmo-lock-2.jpeg" alt="" onclick="showGitmoLock(this);">
+						</div>
+					</div>
+				</div>
 
 				<div class="item-text-block">
 					<p class="item-text">
@@ -96,4 +112,6 @@
 		<script src='https://code.jquery.com/jquery-latest.min.js'></script>
 		
 		<script src="../../js/script.js"></script>
+
+		<script src="../../js/items.js"></script>
 	</body>

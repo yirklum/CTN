@@ -304,7 +304,7 @@ h3 a {
 .intro {
   width: 70%;
   margin-left: 15%;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-bottom: 3%;
 }
 
@@ -648,6 +648,10 @@ h5 a {
   width: 45%;
   height: 666px;
   margin-bottom: 500px;
+}
+
+.long {
+  margin-bottom: 850px;
 }
 
 

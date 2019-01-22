@@ -58,8 +58,24 @@
 			<div class="item-pages">
 				<h2>Delta One Million Miles Snow Globe</h2>
 					
-				<img class="item-image" src="delta-snow-globe.jpeg" alt="Caption">
-
+				<div class="thumbnail-container">
+					<img src="delta-snow-globe.jpeg" id="delta-snow-globe" alt="">
+						
+					<div class="expanded-thumbnail-container">
+						<img id="expandedDeltaSnowGlobe" style="width:100%">
+					</div>	
+						
+					<div class="thumbnail-row">
+						<div class="thumbnail-column">
+							<img src="delta-snow-globe.jpeg" alt="" onclick="showDeltaSnowGlobe(this);">	
+						</div>
+	
+						<div class="thumbnail-column">
+							<img src="delta-snow-globe-2.jpeg" alt="" onclick="showDeltaSnowGlobe(this);">	
+						</div>
+					</div>
+				</div>
+				
 				<div class="item-text-block">
 					<p class="item-text">
 						Add text.
@@ -96,5 +112,7 @@
 		<script src='https://code.jquery.com/jquery-latest.min.js'></script>
 		
 		<script src="../../js/script.js"></script>
+
+		<script src="../../js/items.js"></script>
 	</body>
 </html>

@@ -58,8 +58,24 @@
 			<div class="item-pages">
 				<h2>Baby Jessica's Sock</h2>
 
-				<img class="item-image" src="baby-jessica-sock-2.jpeg" alt="Caption">
-
+				<div class="thumbnail-container">
+					<img src="baby-jessica-sock-2.jpeg" id="baby-jessica-sock" alt="">
+						
+					<div class="expanded-thumbnail-container">
+						<img id="expandedBabyJessicaSock" style="width:100%">
+					</div>	
+						
+					<div class="thumbnail-row">
+						<div class="thumbnail-column">
+							<img src="baby-jessica-sock-2.jpeg" alt="" onclick="showBabyJessicaSock(this);">	
+						</div>
+	
+						<div class="thumbnail-column">
+							<img src="baby-jessica-sock.jpeg" alt="" onclick="showBabyJessicaSock(this);">	
+						</div>
+					</div>
+				</div>
+	
 				<div class="item-text-block">
 					<p class="item-text">
                         Add text.
@@ -96,5 +112,7 @@
 		<script src='https://code.jquery.com/jquery-latest.min.js'></script>
 		
 		<script src="script.js"></script>
+
+		<script src="../../js/items.js"></script>
 	</body>
 </html>

@@ -58,8 +58,24 @@
 			<div class="item-pages">
 				<h2>Saddam Hussein Interview Tape</h2>
 					
-				<img class="item-image" src="saddam-interview-tape.jpeg" alt="Caption">
-
+				<div class="thumbnail-container">
+					<img src="saddam-interview-tape.jpeg" id="saddam-interview-tape" alt="">
+	
+					<div class="expanded-thumbnail-container">
+						<img id="expandedSaddamInterviewTape" style="width:100%">
+					</div>	
+		
+					<div class="thumbnail-row">
+						<div class="thumbnail-column">
+							<img src="saddam-interview-tape.jpeg" alt="" onclick="showSaddamInterviewTape(this);">	
+						</div>
+								
+						<div class="thumbnail-column">
+							<img src="saddam-interview-tape-2.jpeg" alt="" onclick="showSaddamInterviewTape(this);">
+						</div>
+					</div>
+				</div>
+				
 				<div class="item-text-block">
 					<p class="item-text">
 						Add text.
@@ -96,4 +112,6 @@
 		<script src='https://code.jquery.com/jquery-latest.min.js'></script>
 		
 		<script src="../../js/script.js"></script>
+
+		<script src="../../js/items.js"></script>
 	</body>

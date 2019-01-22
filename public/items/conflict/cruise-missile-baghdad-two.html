@@ -58,7 +58,23 @@
 			<div class="item-pages">
 				<h2>Signed Cruise Missile Skin</h2>
 					
-				<img class="item-image" src="cruise-missile-baghdad-two-2.jpeg" alt="Caption">
+				<div class="thumbnail-container">
+					<img src="cruise-missile-baghdad-two.jpeg" id="cruise-missile-skin-two" alt="">
+	
+					<div class="expanded-thumbnail-container">
+						<img id="expandedCruiseMissileSkinTwo" style="width:100%">
+					</div>	
+	
+					<div class="thumbnail-row">
+						<div class="thumbnail-column">
+							<img src="cruise-missile-baghdad-two.jpeg" alt="" onclick="showCruiseMissileSkinTwo(this);">	
+						</div>
+							
+						<div class="thumbnail-column">
+							<img src="cruise-missile-baghdad-two-2.jpeg" alt="" onclick="showCruiseMissileSkinTwo(this);">
+						</div>
+					</div>
+				</div>
 
 				<div class="item-text-block">
 					<p class="item-text">
@@ -96,4 +112,6 @@
 		<script src='https://code.jquery.com/jquery-latest.min.js'></script>
 		
 		<script src="../../js/script.js"></script>
+
+		<script src="../../js/items.js"></script>
 	</body>

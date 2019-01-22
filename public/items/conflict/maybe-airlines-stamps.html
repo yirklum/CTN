@@ -58,8 +58,24 @@
 			<div class="item-pages">
 				<h2>Maybe Airlines Passport Stamps</h2>
 
-				<img class="item-image" src="maybe-airlines-stamps.jpeg" alt="Caption">
-
+				<div class="thumbnail-container">
+					<img src="maybe-airlines-stamps.jpeg" id="maybe-airlines-stamps" alt="">
+		
+					<div class="expanded-thumbnail-container">
+						<img id="expandedMaybeAirlinesStamps" style="width:100%">
+					</div>	
+		
+					<div class="thumbnail-row">
+						<div class="thumbnail-column">
+							<img src="maybe-airlines-stamps.jpeg" alt="" onclick="showMaybeAirlinesStamps(this);">	
+						</div>
+								
+						<div class="thumbnail-column">
+							<img src="maybe-airlines-stamps-2.jpeg" alt="" onclick="showMaybeAirlinesStamps(this);">
+						</div>
+					</div>
+				</div>
+	
 				<div class="item-text-block">
 					<p class="item-text"> 
                         Add text.
@@ -96,5 +112,8 @@
 		<script src='https://code.jquery.com/jquery-latest.min.js'></script>
 		
 		<script src="../../js/script.js"></script>
+
+		<script src="../../js/items.js"></script>
+
 	</body>
 </html>

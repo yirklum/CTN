@@ -58,8 +58,24 @@
 			<div class="item-pages">
 				<h2>UN Sarajevo Lighter</h2>
 
-				<img class="item-image" src="un-lighter.jpeg" alt="Caption">
-
+				<div class="thumbnail-container">
+					<img src="un-lighter.jpeg" id="un-lighter" alt="">
+		
+					<div class="expanded-thumbnail-container">
+						<img id="expandedUnLighter" style="width:100%">
+					</div>	
+		
+					<div class="thumbnail-row">
+						<div class="thumbnail-column">
+							<img src="un-lighter.jpeg" alt="" onclick="showUnLighter(this);">	
+						</div>
+								
+						<div class="thumbnail-column">
+							<img src="un-lighter-2.jpeg" alt="" onclick="showUnLighter(this);">
+						</div>
+					</div>
+				</div>
+	
 				<div class="item-text-block">
 					<p class="item-text">
 						Add text.
@@ -96,5 +112,7 @@
 		<script src='https://code.jquery.com/jquery-latest.min.js'></script>
 		
 		<script src="../../js/script.js"></script>
+
+		<script src="../../js/items.js"></script>
 	</body>
 </html>

@@ -59,7 +59,23 @@
 			<div class="item-pages">
 				<h2>Evening Standard Posters</h2>
 
-				<img class="item-image" src="evening-standard.jpeg" alt="Caption">
+				<div class="thumbnail-container">
+					<img src="evening-standard.jpeg" id="evening-standard" alt="">
+		
+					<div class="expanded-thumbnail-container">
+						<img id="expandedEveningStandard" style="width:100%">
+					</div>	
+		
+					<div class="thumbnail-row">
+						<div class="thumbnail-column">
+							<img src="evening-standard.jpeg" alt="" onclick="showEveningStandard(this);">	
+						</div>
+								
+						<div class="thumbnail-column">
+							<img src="evening-standard-2.jpeg" alt="" onclick="showEveningStandard(this);">
+						</div>
+					</div>
+				</div>
 
 				<div class="item-text-block">
 					<p class="item-text">
@@ -105,5 +121,7 @@
 		<script src='https://code.jquery.com/jquery-latest.min.js'></script>
 		
 		<script src="../../js/script.js"></script>
+
+		<script src="../../js/items.js"></script>
 	</body>
 </html>

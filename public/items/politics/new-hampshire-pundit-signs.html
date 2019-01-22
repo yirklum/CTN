@@ -58,8 +58,28 @@
 			<div class="item-pages">
 				<h2>Axelrod-Graham Pundit Signs</h2>
 					
-				<img class="item-image" src="new-hampshire-pundit-signs.jpeg" alt="Caption">
+				<div class="thumbnail-container">
+					<img src="new-hampshire-pundit-signs.jpeg" id="pundit-signs" alt="">
+					
+					<div class="expanded-thumbnail-container">
+						<img id="expandedPunditSigns" style="width:100%">
+					</div>	
+					
+					<div class="thumbnail-row">
+						<div class="thumbnail-column">
+							<img src="new-hampshire-pundit-signs.jpeg" alt="" onclick="showPunditSigns(this);">	
+						</div>
+											
+						<div class="thumbnail-column">
+							<img src="new-hampshire-pundit-signs-2.jpeg" alt="" onclick="showPunditSigns(this);">
+						</div>
 
+						<div class="thumbnail-column">
+							<img src="new-hampshire-pundit-signs-3.jpeg" alt="" onclick="showPunditSigns(this);">
+						</div>
+					</div>
+				</div>
+	
 				<div class="item-text-block">
 					<p class="item-text">
 						Add text.
@@ -96,5 +116,7 @@
 		<script src='https://code.jquery.com/jquery-latest.min.js'></script>
 		
 		<script src="../../js/script.js"></script>
+
+		<script src="../../js/items.js"></script>
 	</body>
 </html>

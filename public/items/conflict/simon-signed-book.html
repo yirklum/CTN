@@ -58,8 +58,24 @@
 			<div class="item-pages">
 				<h2>Bob Simon Signed Book</h2>
 					
-				<img class="item-image" src="simon-signed-book.jpeg" alt="Caption">
-
+				<div class="thumbnail-container">
+					<img src="simon-signed-book.jpeg" id="simon-book" alt="">
+		
+					<div class="expanded-thumbnail-container">
+						<img id="expandedSimonBook" style="width:100%">
+					</div>	
+		 
+					<div class="thumbnail-row">
+						<div class="thumbnail-column">
+							<img src="simon-signed-book.jpeg" alt="" onclick="showSimonBook(this);">	
+						</div>
+								
+						<div class="thumbnail-column">
+							<img src="simon-signed-book-2.jpeg" alt="" onclick="showSimonBook(this);">
+						</div>
+					</div>
+		
+				</div>
 				<div class="item-text-block">
 					<p class="item-text">
 						Add text.
@@ -96,4 +112,6 @@
 		<script src='https://code.jquery.com/jquery-latest.min.js'></script>
 		
 		<script src="../../js/script.js"></script>
+
+		<script src="../../js/items.js"></script>
 	</body>

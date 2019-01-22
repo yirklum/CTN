@@ -58,8 +58,24 @@
 			<div class="item-pages">
 				<h2>1994 Midterm Election Newspapers</h2>
 					
-				<img class="item-image" src="1994-election-newspapers.jpeg" alt="Caption">
-
+				<div class="thumbnail-container">
+					<img src="1994-election-newspapers.jpeg" id="1994-midterm-newspapers" alt="">
+			
+					<div class="expanded-thumbnail-container">
+						<img id="expanded1994MidtermNewspapers" style="width:100%">
+					</div>	
+			
+					<div class="thumbnail-row">
+						<div class="thumbnail-column">
+							<img src="1994-election-newspapers.jpeg" alt="" onclick="show1994MidtermNewspapers(this);">	
+						</div>
+									
+						<div class="thumbnail-column">
+							<img src="1994-election-newspapers-2.jpeg" alt="" onclick="show1994MidtermNewspapers(this);">
+						</div>
+					</div>
+				</div>
+	
 				<div class="item-text-block">
 					<p class="item-text">
 						Add text. 
@@ -96,5 +112,7 @@
 		<script src='https://code.jquery.com/jquery-latest.min.js'></script>
 		
 		<script src="../../js/script.js"></script>
+
+		<script src="../../js/items.js"></script>
 	</body>
 </html>

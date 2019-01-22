@@ -58,7 +58,23 @@
 			<div class="item-pages">
 				<h2>Obama-Biden Campaign Signs</h2>
 					
-				<img class="item-image" src="obama-biden-signs-2.jpeg" alt="Caption">
+				<div class="thumbnail-container">
+					<img src="obama-biden-signs-2.jpeg" id="obama-biden-signs" alt="">
+					
+					<div class="expanded-thumbnail-container">
+						<img id="expandedObamaBidenSigns" style="width:100%">
+					</div>	
+					
+					<div class="thumbnail-row">
+						<div class="thumbnail-column">
+							<img src="obama-biden-signs-2.jpeg" alt="" onclick="showObamaBidenSigns(this);">	
+						</div>
+
+						<div class="thumbnail-column">
+							<img src="obama-biden-signs.jpeg" alt="" onclick="showObamaBidenSigns(this);">	
+						</div>
+					</div>
+				</div>
 
 				<div class="item-text-block">
 					<p class="item-text">
@@ -96,5 +112,7 @@
 		<script src='https://code.jquery.com/jquery-latest.min.js'></script>
 		
 		<script src="../../js/script.js"></script>
+
+		<script src="../../js/items.js"></script>
 	</body>
 </html>
