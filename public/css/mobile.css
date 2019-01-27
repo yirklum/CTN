@@ -671,6 +671,14 @@ h5 a {
   margin-left: 14%;
 }
 
+.item-description-photo {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-style: italic;
+}
+
+
 /* Politics Gallery */
 
 #pre-1976 {
