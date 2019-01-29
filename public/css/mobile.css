@@ -216,13 +216,39 @@ h3 a {
 
 /*Equipment*/
 
-.centered-image {
+/* .centered-image {
   display: block;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 25px;
   border: solid 1px blue;
+} */
+
+.equipment-category {
+  height: 300px;
+}
+
+.equipment-label {
+  position: absolute;
+  bottom: 18px;
+  left: 26px;
+  font-size: 36px;
+  background: black;
+  padding: 5px;
+  color: white;
+}
+
+.equipment-label-box {
+  position: relative;
+  text-align: center;
+  margin: 40px;
+  border: solid 2px white;
+}
+
+.equipment {
+  margin-left: 8%;
+  margin-bottom: 75px;
 }
 
 /*About*/
