@@ -251,6 +251,15 @@ h3 a {
   margin-bottom: 75px;
 }
 
+.equipment-gallery {
+  display: inline-block;
+  /* float: left; */
+  width: 30%;
+  text-align: center;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
 /*About*/
 
 #bioblock {
