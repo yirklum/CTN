@@ -257,3 +257,13 @@
 
         expandDeltaSnowGlobe.parentElement.style.display = "block";
     }
+
+    function showPresidentialTripStickers(imgs) {
+        $("#presidential-trip-stickers").hide();
+
+        var expandPresidentialTripStickers = document.getElementById("expandedPresidentialTripStickers");
+
+        expandPresidentialTripStickers.src = imgs.src;
+
+        expandDeltaPresidentialTripStickers.parentElement.style.display = "block";
+    }
